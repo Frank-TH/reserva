@@ -5,8 +5,9 @@ import lombok.Data;
 @Data
 public class Paciente {
 	
-	int id;
+	String id;
 	String name;
-	
+	String usu;
+	String pas;
 
 }

@@ -2,7 +2,7 @@ package Setting;
 
 import java.sql.Connection;
 
-public class Prueba {
+public class PruebaConexion {
 
 	public static void main(String[] args) {
 		
