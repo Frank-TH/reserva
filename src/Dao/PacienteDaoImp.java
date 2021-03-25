@@ -31,7 +31,7 @@ public class PacienteDaoImp implements PacienteDao {
 
 	@Override
 	public Paciente validar(String usu, String pas) {
-		String sql = "SELECT * FROM paciente WHERE usu LIKE '" + usu + "' AND pas LIKE '" + pas + "'";
+		String sql = "SELECT * FROM paciente WHERE usu = '" + usu + "' AND pas = '" + pas + "'";
 		Object[] fila = Operacion.buscar(sql);
 		if (fila != null) {
 			Paciente p = new Paciente();
